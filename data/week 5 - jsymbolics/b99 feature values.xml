@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!DOCTYPE feature_vector_file [
+   <!ELEMENT feature_vector_file (comments, data_set+)>
+   <!ELEMENT comments (#PCDATA)>
+   <!ELEMENT data_set (data_set_id, section*, feature*)>
+   <!ELEMENT data_set_id (#PCDATA)>
+   <!ELEMENT section (feature+)>
+   <!ATTLIST section start CDATA ""
+                     stop CDATA "">
+   <!ELEMENT feature (name, v+)>
+   <!ELEMENT name (#PCDATA)>
+   <!ELEMENT v (#PCDATA)>
+]>
+
+<feature_vector_file>
+
+   <comments></comments>
+
+	<data_set>
+		<data_set_id>/Users/lucyhood/Desktop/4th year/music analytics/Brooklyn Nine-Nine/Brooklyn Nine - Nine Theme.mid</data_set_id>
+		<feature>
+			<name>Range</name>
+			<v>6E1</v>
+		</feature>
+		<feature>
+			<name>Importance of Middle Register</name>
+			<v>1.124E-1</v>
+		</feature>
+		<feature>
+			<name>Mean Pitch</name>
+			<v>5.233E1</v>
+		</feature>
+		<feature>
+			<name>Most Common Pitch</name>
+			<v>4E1</v>
+		</feature>
+		<feature>
+			<name>Amount of Arpeggiation</name>
+			<v>6.159E-1</v>
+		</feature>
+		<feature>
+			<name>Repeated Notes</name>
+			<v>4.106E-1</v>
+		</feature>
+		<feature>
+			<name>Range of Rhythmic Values</name>
+			<v>7E0</v>
+		</feature>
+		<feature>
+			<name>Amount of Staccato</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Dynamic Range</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Variation of Dynamics</name>
+			<v>0E0</v>
+		</feature>
+	</data_set>
+
+</feature_vector_file>
