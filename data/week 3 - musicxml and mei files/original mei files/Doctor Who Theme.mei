@@ -5,9 +5,11 @@
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title authURI="">Doctor Who</title>
-                <composer>Ron Grainer</composer>
+                <title> Doctor Who Theme</title>
+                <composer authURI="http://gla.naxosmusiclibrary.com.ezproxy.lib.gla.ac.uk/catalogue/item.asp?cid=738572155247" authority ="Naxos Music Library">Ron Grainer</composer>
                 <date>1963</date>
+                <resp>Encoded by</resp>
+                <resp>Lucy Hood</resp>
             </titleStmt>
             <pubStmt></pubStmt>
         </fileDesc>
