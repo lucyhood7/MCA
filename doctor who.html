@@ -16,27 +16,27 @@
     <div id="content">
       <!-- ADD YOUR HTML CONTENT HERE! -->
       <h1>Doctor Who</h1>
-      <h2>Metadata</h2>
       <p id="meta"></p>
+One of the theme songs I analysed was from Doctor Who. Here is the score: </br>
+
 
     </div>
 
     <!-- **** DO NO EDIT BELOW THIS LINE **** -->
     <!-- * **** **** **** **** **** **** **** -->
-    <div id="score">
     <div id="controls">
     <button id="prev">&lt;</button>
    <button id="next">&gt;</button>
     </div>
-
+    <div id="score">
 
       <!-- THIS IS WHERE THE SCORE GOES AUTOMATICALLY -->
     </div>
     <!-- THIS CALLS THE SCRIPT THAT GETS THE MEI SCORE -->
-   <script src="js/index.js"></script>
+   <script src="js/doctor who.js"></script>
     <script>
       var xhr = new XMLHttpRequest()
-      xhr.open('GET', 'data/The Office Theme.mei') // <-- change this to the right file
+      xhr.open('GET', 'data/week 3 musicxml and mei files/original mei files/Doctor Who Theme.mei') // <-- change this to the right file
       xhr.send(null)
 
       /* Deal with the response */
@@ -57,6 +57,14 @@
         }
       }
     </script>
-  </body>
+
+    <p> Here are the images extracted from Sonic Visualiser:<br/>
+      <li>Waveform:<br>
+        <div align="center"><img src="data/images/week 8 - sonicvisualiser images/Doctor Who waveform.png" alt="doctor who theme waveform" height="200" width="1000"><br></li>  </div>
+      <li>Chromagram:<br>
+      <div align="center"><img src="data/images/week 9 - sonicvisualiser and histogram images/doctor who chromagram.png" alt="doctor who theme chromagram" height="200" width="1000"><br></li></div>
+      <li>MFCC:<br>
+      <div align="center"><img src="data/images/week 9 - sonicvisualiser and histogram images/doctor who mfcc.png" alt="doctor who theme mfcc" height="200" width="1000"><br></li></div>
+      </body>
 
 </html>
