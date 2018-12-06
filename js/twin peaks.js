@@ -20,4 +20,4 @@ options = {
 vrvToolkit.setOptions(options)
 
 /* Show the score */
-showScore('score', 'data/The Office Theme.mei') // <-- CHANGE THIS TO YOUR FILE
+showScore('score', 'data/week 3 musicxml and mei files/original mei files/Twin Peaks Theme.mei') // <-- CHANGE THIS TO YOUR FILE
