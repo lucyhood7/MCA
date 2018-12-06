@@ -1,4 +1,7 @@
 /* Add your own CSS rules here */
+body{
+ background-color: #ffffb3;
+}
 h1 {
   text-align: center;
 }
@@ -15,9 +18,7 @@ p
 g[class='note'] {
   color: red;
 }
-{
- background-color: #ffffb3;
-}
+
 .highlighted {
   fill: blue
 }
