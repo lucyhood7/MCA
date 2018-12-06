@@ -8,7 +8,9 @@ p {
 g[class='note'] {
   color: red;
 }
-
+{
+ background-color: #ffe6ff;
+}
 .highlighted {
   fill: blue
 }
