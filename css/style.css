@@ -2,7 +2,13 @@
 h1 {
   text-align: center;
 }
-p {
+{
+  font-family: "Arial";
+}
+p
+{
+  text-align: center;
+}{
   font-family: "Arial";
 }
 g[class='note'] {
