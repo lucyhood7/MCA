@@ -26,3 +26,6 @@ g[class='note'] {
 #controls {
   float: right;
 }
+th, td {
+  padding: 15px;
+}
